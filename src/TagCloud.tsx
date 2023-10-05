@@ -58,7 +58,7 @@ class TagCloud extends React.Component<ITagCloudProps, ITagCloudState> {
   public static defaultProps = {
     random: Math.random,
     rotate: 0,
-    spiral: "archimedean",
+    spiral: "rectangular",
     style: {
       fontFamily: "serif",
       fontSize: 20,
